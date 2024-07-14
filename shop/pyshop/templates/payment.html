@@ -1,0 +1,26 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<div class="navigation">
+    <h1><span class ="reds">Васек </span> Шоп</h1>
+</div>
+    
+<div class="paymentCard">
+
+        <img style="width: 30%; " src="{{product.image_url}}">
+        <h2>Товар: {{ product.name }}</h2>
+        <h2>К Оплате: {{ product.price }} &#8381</h2>
+        <h3>Реквизиты для Перевода: </h3>
+        <h2>+93333</h2>
+        <h2>Иванов И.П</h2>
+        <form class="paymentform" method="post">
+            {% csrf_token %}
+            <label>Адрес доставки:</label>
+            <input name="address" required>
+            <label>Ваше ФИО:</label>
+            <input name="name" required>
+
+            <button style="margin-left: auto; margin-right: auto; width: 30%;">Оплатил</button>
+        </form>
+
+</div>
+

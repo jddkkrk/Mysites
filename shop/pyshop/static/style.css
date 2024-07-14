@@ -1,0 +1,258 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    body{
+    background-color: #d3d1d1;
+    padding: 0;
+    margin: 0;
+
+
+    }
+    * {
+          font-family: "Rubik", sans-serif;
+    }
+
+    h1 {
+        font-size: 40px;
+        color: #0006b1;
+    }
+/* размеры для фотографии на главной страницы */
+    .productPreview {
+        width: 250px;
+        height: 300px;
+    }
+/* Размеры на странице каталог */
+    .productImage{
+        max-width: 30%;
+        max-height: 30%;
+        padding-left: 15;
+        margin: 20; 
+    }
+
+    button {
+        margin-left: auto;
+    }
+
+    .product {
+        display: flex;
+        min-height: 250px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+        width: 60%;
+    }
+
+
+
+    button {
+        height: 50px;
+        width: 100px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .reds{
+    color: red;
+
+    }
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    background-color: rgb(211, 209, 209);
+    border-radius: 5px;
+
+}
+
+.navlink {
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fc8507;
+    transition: 0.2s;
+
+}
+
+.product__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.price {
+    margin-left: auto;
+    text-align: center;
+}
+
+.price p {
+    font-size: 13px;
+}
+
+
+
+.navigation a:hover {
+    text-decoration: underline;
+
+    font-size: 35px;
+}
+
+.product__info{
+    padding-left: 50px;
+}
+
+.productDetails{
+    border-radius: 20px;
+    margin-top: 20px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.productPrice{
+    flex-direction: row;
+    display: flex;
+
+}
+
+
+
+.productTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.productTitle *{
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+
+
+/* Стили для описания */
+.productDescription {
+
+    border-radius: 20px;
+    margin-top: 20px;
+    background: white;
+    flex-direction: row;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.productDescription * {
+    padding: 10px;
+}
+
+
+/* поиск по катлогам  */
+
+.filter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: rgb(211, 209, 209);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchInput{
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* отзывы */
+
+.review{
+
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.createReview{
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.createReview * {
+    margin: 5 !important;
+    padding: 0 !important;
+    font-size: 20px;
+
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.createReview input{
+    background-color: #c2c0bf;
+}
+
+.createReview textarea{
+    background-color: #c2c0bf;
+}
+
+.createReview button{
+    width: fit-content;
+    margin-top: 10px !important;
+    margin-left: auto !important;
+    padding: 10px !important;
+}
+
+
+/* payment */
+
+.paymentCard{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.paymentform{
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+.paymentform input{
+    background-color:#d3d1d1;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+
+
+
+}
